@@ -1,1 +1,1 @@
-CodeSchool course creators Adam Fortuna and Gregg Pollack will break our learning into practical next steps, in this interesting Angularjs Soup to Bits application
+After playing the Shaping Up With Angular.js course, you can watch this in-depth screencast hosted by Gregg Pollack and Alyssa Nicoll to learn the practical steps of building an Angular.js app from scratch.
