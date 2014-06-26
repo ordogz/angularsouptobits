@@ -1,6 +1,6 @@
 <h1>Angular Reading List of Awesome</h1>
 
-<div class="row" >
+<div class="row" ng-controller="ReadingListController as readingListCtrl">
 
   <button class="btn btn-default">Create a Review</button>
   <hr />
@@ -8,7 +8,7 @@
   <hr />
 
   <ul class="list-unstyled col-sm-8">
-    <li class="book row" >
+    <li class="book row" ng-repeat="book in readingListCtrl.books">
       
       <aside class="col-sm-3">
         <a href="http://www.amazon.com/gp/product/0553593714"><img ng-src="http://images.amazon.com/images/P?0553593714.01.ZTZZZZZZ.jpg" alt="Cover of Book Title" class="full"</a>
