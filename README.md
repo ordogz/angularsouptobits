@@ -1,1 +1,2 @@
+Create a readinglist with AngularJs.
 After playing the Shaping Up With Angular.js course, you can watch this in-depth screencast hosted by Gregg Pollack and Alyssa Nicoll to learn the practical steps of building an Angular.js app from scratch.
