@@ -1,0 +1,1 @@
+CodeSchool course creators Adam Fortuna and Gregg Pollack will break our learning into practical next steps, in this interesting Angularjs Soup to Bits application
