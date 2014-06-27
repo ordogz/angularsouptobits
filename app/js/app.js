@@ -8,6 +8,13 @@ a.controller('ReadingListController', function(){
 	this.genres = genres;
 });
 
+a.directive('bookGenres', function(){
+  return {
+    restrict: 'E',
+    templateUrl: 'partials/book-genres.html'
+  }
+});
+
 var genres = [ 'fable', 'fantasy', 'fiction', 'folklore', 'horror', 'humor', 'legend', 'metafiction', 'mystery', 'mythology', 'non-fiction', 'poetry' ];
 
   var books = [
