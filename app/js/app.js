@@ -1,14 +1,14 @@
 (function(){
 'use strict';
 // Declare app level module which depends on filters, and services
-var a = angular.module('readingList', []);
+var app = angular.module('readingList', []);
 
-a.controller('ReadingListController', function(){
+app.controller('ReadingListController', function(){
 	this.books = books;
 	this.genres = genres;
 });
 
-a.directive('bookGenres', function(){
+app.directive('bookGenres', function(){
   return {
     restrict: 'E',
     templateUrl: 'partials/book-genres.html',
@@ -19,7 +19,7 @@ a.directive('bookGenres', function(){
 
 });
 
-a.directive('bookCovers', function(){
+app.directive('bookCovers', function(){
   return {
     restrict: 'E',
     templateUrl: 'partials/book-covers.html',
@@ -27,7 +27,7 @@ a.directive('bookCovers', function(){
   }
 });
 
-a.directive('reviewForm', function(){
+app.directive('reviewForm', function(){
   return {
     restrict: 'E',
     templateUrl: 'partials/review-form.html',
